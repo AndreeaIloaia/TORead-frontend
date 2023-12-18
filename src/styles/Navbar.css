@@ -1,0 +1,36 @@
+.Navbar {
+    background-color: #222642;
+
+    width: 13vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-nav {
+    width: 200px;
+    height: 80px
+}
+
+.tab-nav {
+    padding: 10px;
+
+    color: aliceblue;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tab-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.tab-nav a.active {
+    text-decoration: white underline 0.1rem;
+    text-underline-offset: 1rem;
+}
+

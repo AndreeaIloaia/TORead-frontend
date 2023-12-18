@@ -1,0 +1,23 @@
+.Section2 {
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+    color: aqua;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+
+}
+
+.s2-image-text {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.description, .map-button {
+    left: 50%;
+    top: 0;
+}

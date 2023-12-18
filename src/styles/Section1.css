@@ -1,0 +1,61 @@
+.Section1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-container{
+    height: 100%; 
+    width: 100%; 
+    overflow: hidden;
+}
+
+.image {
+    border: none;
+    margin: 0 auto;
+}
+
+.image-text {
+    position: absolute;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: rgb(2, 7, 51) 7px 3px 10px;
+    font-weight:normal;
+}
+
+.title {
+    top: 10%;
+    left: 5%;  
+    font-size: 70px;
+}
+
+.description {
+    top: 40%;
+    left: 0;
+    right: 0;
+    font-size: 40px;
+}
+
+.map-button {
+    top: 50%;
+    left: 50% ;
+    width: 100px;
+    height: 100px;
+}
+
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(173, 113, 0); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+        typing 1.5s steps(20, end),
+        blink-caret 2.5s step-end infinite;
+}  
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
